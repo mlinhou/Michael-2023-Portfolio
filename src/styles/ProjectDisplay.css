@@ -16,7 +16,7 @@
   }
   
   .project h1 {
-    margin-top: 50px;
+    margin-top: 100px;
     color: #3e497a;
     font-size: 35px;
   }
@@ -33,4 +33,9 @@
   .project svg {
     font-size: 60px;
     color: #3e497a;
+  }
+
+  .project h2 {
+    font-size: 25px;
+    margin: 40px;
   }

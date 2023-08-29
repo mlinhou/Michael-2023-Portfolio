@@ -27,14 +27,14 @@ export const ProjectList = [
         image: CognivisionHome,
         extraImage: CognivisionFilterModal,
         skills: "React, JavaScript, HTML, CSS, Springboot, .NET, VSCode",
-        description: "A web app that can store various project metrics, such as location, date, progress, team size, etc. These project metrics are displayed through various graphs, charts, tables and maps. You can filter through the metrics using the filter modal, which then updates the displayed information."
+        description: "A data visualization app that can store various project metrics, such as location, date, progress, team size, etc. These project metrics are displayed through various graphs, charts, tables and maps. You can filter through the metrics using the filter modal, which then updates the displayed information."
     },
     {
-        name: "Pixelgram",
+        name: "Social Media App",
         image: Postlist,
         extraImage: Login,
         skills: "SwiftUI, Alamofire, XCode",
-        description: "A social media mobile app that allows users to register and login as users to see, like, comment, and post their own content."
+        description: "A mobile app that allows users to register and login as users to see, like, comment, and post their own content."
     },
     {
         name: "Recipe App",
