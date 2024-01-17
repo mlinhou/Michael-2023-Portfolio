@@ -5,10 +5,11 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
 function Home() {
+
   return (
     <div className="home">
       <div className="about">
-        <h2> Hi, My Name is Michael</h2>
+        <h2 className="name"> Michael Lin </h2>
         <div className="prompt">
           <p>A Software Engineer</p>
           <IconButton
