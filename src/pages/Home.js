@@ -28,15 +28,15 @@ function Home() {
         </div>
       </div>
       <div className="skills">
-        <h1> Skills</h1>
+        
         <ol className="list">
           <li className="item">
-            <h2>Languages</h2>
-            <span> Java, JavaScipt, Swift, HTML, CSS</span>
+            <h2>About Me</h2>
+            <span> I am a Software Engineer with 3 years of experience, primarily working with Frontend Technologies. </span>
           </li>
           <li className="item">
             <h2>Technologies</h2>
-            <span> React.js, SwiftUI, Git, Gitlab, Jenkins, Visual Studio Code, XCode</span>
+            <span> Javascript, HTML, CSS, React.js, Node.js, Swift, Java, MongoDB, Git</span>
           </li>
         </ol>
       </div>
