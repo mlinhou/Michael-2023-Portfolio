@@ -19,9 +19,29 @@ import CalcTwo from "../assets/calc2.png";
 import Teggle from "../assets/teggle1.png";
 import TeggleGameOver from "../assets/teggleGameOver.png";
 
+import snakepic from "../assets/snakepic.png";
+import snakegameover from "../assets/snakegameover.png";
+
+import nbaapipic from "../assets/nbaapipic.png";
+import nbaapidarkmodepic from "../assets/nbaapidarkmodepic.png";
+
 
 
 export const ProjectList = [
+    {
+        name: "Snake",
+        image: snakepic,
+        extraImage: snakegameover,
+        skills: "React, JavaScript, HTML, CSS, Node.js, MongoDB",
+        description: "The classic arcade game of Snake! Try to eat as many apples as you can without running into a wall or yourself. Collect powerups along the way to shrink your snake size and slow down your move speed!"
+    },
+    {
+        name: "NBA Comparison App",
+        image: nbaapidarkmodepic,
+        extraImage: nbaapipic,
+        skills: "React, JavaScript, HTML, CSS, Chart.js",
+        description: "Compare two NBA players' stats from any season with this app! The two inputted player names and seasons will have their stats displayed via Chart.js."
+    },
     {
         name: "Project Metric App",
         image: CognivisionHome,
