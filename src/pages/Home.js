@@ -11,7 +11,7 @@ function Home() {
       <div className="about">
         <h2 className="name"> Michael Lin </h2>
         <div className="prompt">
-          <p>A Software Engineer</p>
+          <p>Software Engineer</p>
           <IconButton
             aria-label="Linkedin.com"
             onClick={() => window.open("https://www.linkedin.com/in/michael-lin-96b5b0170/")}
