@@ -13,7 +13,28 @@ function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
-
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="October 2023 - Present"
+          iconStyle={{ background: "red", color: "#fff" }}
+          icon={<ComputerIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            RoadieBrodie
+          </h3>
+          <p> Locate popular destinations along your road trip route to make your journey even more memorable.</p>
+        </VerticalTimelineElement>
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="January 2024"
+          iconStyle={{ background: "red", color: "#fff" }}
+          icon={<ComputerIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Task and Note Manager
+          </h3>
+          <p> Keep track of your activities and reminders with this app! Includes features to create, delete, and edit notes.</p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="November 2023"
