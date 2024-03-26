@@ -13,7 +13,28 @@ function Experience() {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">
-
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="October 2023 - Present"
+          iconStyle={{ background: "red", color: "#fff" }}
+          icon={<ComputerIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            RoadieBrodie
+          </h3>
+          <p> Locate popular destinations along your road trip route to make your journey even more memorable.</p>
+        </VerticalTimelineElement>
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="January 2024"
+          iconStyle={{ background: "red", color: "#fff" }}
+          icon={<ComputerIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Daily Tools Collection
+          </h3>
+          <p> An All-in-One collection of daily tools for a friendly user experience! Features a Todo list, calculator, and timer.</p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="November 2023"
