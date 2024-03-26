@@ -31,9 +31,9 @@ function Experience() {
           icon={<ComputerIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Task and Note Manager
+            Daily Tools Collection
           </h3>
-          <p> Keep track of your activities and reminders with this app! Includes features to create, delete, and edit notes.</p>
+          <p> An All-in-One collection of daily tools for a friendly user experience! Features a Todo list, calculator, and timer.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

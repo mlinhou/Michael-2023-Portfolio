@@ -25,9 +25,20 @@ import snakegameover from "../assets/snakegameover.png";
 import nbaapipic from "../assets/nbaapipic.png";
 import nbaapidarkmodepic from "../assets/nbaapidarkmodepic.png";
 
+import dailytoolstodo from "../assets/dailytoolstodo.png"
+import dailytoolscalc from "../assets/dailytoolscalc.png"
+
 
 
 export const ProjectList = [
+    {
+        name: "Daily Tools Collection",
+        image: dailytoolstodo,
+        extraImage: dailytoolscalc,
+        skills: "React, JavaScript, HTML, CSS",
+        description: "An All-in-One collection of daily tools for a friendly user experience! Features a Todo list, calculator, and timer. This app is continuosly being updated with more features!",
+        link: "https://mlinhou.github.io/Daily-Tools/"
+    },
     {
         name: "Snake",
         image: snakepic,
