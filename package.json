@@ -1,7 +1,7 @@
 {
   "name": "portfolio1",
   "version": "0.1.0",
-  "homepage": "https://mlinhou.github.io/Michael-2023-Portfolio/",
+  "homepage": "https://mlinhou.github.io/Michaels-Portfolio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
